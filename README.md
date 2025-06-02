@@ -19,7 +19,8 @@ As you can probably tell, the above code will return an IndexError if you run th
 
 if len(sys.arg) < 2:
     print("Usage: Python3 main.py <path_to_file>")
-    filepath = sys.argv[1]
+    sys.ext(1)
+filepath = sys.argv[1]
 
 ```
 
