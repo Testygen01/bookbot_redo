@@ -1,6 +1,7 @@
 # bookbot_redo
 Bookbot project redo without looking.
 Bookbot is a Python command-line tool that processes a .txt file. The script counts the total number of words and the frequency of each character.
+
 **How I Solved Problems:** I was able to successfully complete this project without looking at the guided project. I encountered a problem with using `sys.argv`. I initially had this code in my main function:
 `# get filepath from the command line
 filepath = sys.argv[1]`
